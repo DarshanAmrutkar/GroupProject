@@ -1,0 +1,11 @@
+.heading-container {
+    display: flex;
+    
+    text-align: left;
+    margin-top: 50px; /* add some space between the NavBar and the heading */
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }

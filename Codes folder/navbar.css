@@ -1,0 +1,45 @@
+/* NavBar.css */
+.navbar {
+  position: fixed;
+  top:0;
+  right: 0;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: transparent;
+  color: aqua;
+}
+
+/* App.css */
+
+
+.box {
+  border: 3px solid black;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
